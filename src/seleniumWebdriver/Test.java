@@ -15,7 +15,7 @@ public class Test {
 		driver.get("http://www.facebook.com");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath(".//*[@id='u_0_f']")).sendKeys("Test Selenium");
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 		driver.quit();
 	/*	
 		driver.get("http://www.wikipedia.org");
